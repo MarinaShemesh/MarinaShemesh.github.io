@@ -1,0 +1,20 @@
+{
+  "name": "marina_shemesh_portfolio",
+  "version": "1.0.0",
+  "description": "Coding portfolio of Marina Shemesh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html5",
+    "css3",
+    "portfolio"
+  ],
+  "author": "Marina Shemesh",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}

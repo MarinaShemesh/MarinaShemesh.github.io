@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Marina Shemesh Portfolio</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> 
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/custom.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body id="page-top" class="index">
+    <!-- Fixed navbar -->
+    <nav id="header" class="navbar navbar-fixed-top">
+        <div id="header-container" class="container navbar-container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a id="brand" class="navbar-brand" href="#">Marina Shemesh</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <!-- <li class="active"><a href="#">Home</a></li> -->
+                    
+                    <li><a href="#online">Online</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div><!-- /.nav-collapse -->
+        </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome to my portfolio</div>
+                <a href="#online" class="btn btn-xl text-center thing">A closer look..</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="online">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Online</h2>
+                    <h3 class="section-subheading text-muted">Some of the places where you can find me online.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x" ></i>
+                        <a href="https://www.linkedin.com/in/marina-shemesh-98133311/" target="_blank">
+                            <i class="fa fa-linkedin-square fa-stack-1x fa-inverse" aria-hidden="true"></i></a>
+                        </span>
+                        <h4 class="service-heading">LinkedIn</h4>
+                        <p class="text-muted">An experienced content writer who fell in love with coding and recently completed a full stack coding bootcamp.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <a href="https://medium.com/@MarinaShemesh" target="_blank">
+                                <i class="fa fa-medium fa-stack-1x fa-inverse"></i></a>
+                            </span>
+                            <h4 class="service-heading">Medium</h4>
+                            <p class="text-muted">Here I publish short stories about my home town Zichron Yaakov, musings about life and now also 'An algorithm a day' because, you know...maths!</p>
+                        </div>
+
+                        <div class="col-md-4">
+                            <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <a href="https://github.com/MarinaShemesh" target="_blank">
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i></a>
+                                </span>
+                                <h4 class="service-heading">Git Hub</h4>
+                                <p class="text-muted">A 'social network' for developers where we store our code, make contributions to projects, collaborate and learn from each other.</p>
+                            </div> 
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Portfolio Grid Section -->
+                <section id="portfolio" class="bg-light-gray">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <h2 class="section-heading">Portfolio</h2>
+                                <h3 class="section-subheading text-muted">Click on the images to have a look at the projects that I have been working on.</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 portfolio-item">
+                                <a href="https://thehomecook.herokuapp.com/home" target="_blank" class="portfolio-link" data-toggle="modal">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content">
+                                            <i class="fa fa-plus fa-3x"></i>
+                                        </div>
+                                    </div>
+                                    <img src="./img/the_home_cook.jpg" class="img-responsive" alt="">
+                                </a>
+                                <div class="portfolio-caption">
+                                    <h4>The Home Cook</h4>
+                                    <p class="text-muted">Our final Elevation Academy MEAN-stack hackathon project</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 portfolio-item">
+                                <a href="https://github.com/MarinaShemesh/city_weather" target="_blank" class="portfolio-link" data-toggle="modal">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content">
+                                            <i class="fa fa-plus fa-3x"></i>
+                                        </div>
+                                    </div>
+                                    <img src="./img/weather_app.jpg" class="img-responsive" alt="">
+                                </a>
+                                <div class="portfolio-caption">
+                                    <h4>City Weather</h4>
+                                    <p class="text-muted">JQuery app fetching data from an API and updating the view.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 portfolio-item">
+                                <a href="https://github.com/MarinaShemesh/trivia_quiz" target="_blank" class="portfolio-link" data-toggle="modal">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content">
+                                            <i class="fa fa-plus fa-3x"></i>
+                                        </div>
+                                    </div>
+                                    <img src="./img/trivia_quiz.jpg" class="img-responsive" alt="">
+                                </a>
+                                <div class="portfolio-caption">
+                                    <h4>Master Quiz</h4>
+                                    <p class="text-muted">Our first Elevation Academy hackaton project</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 portfolio-item">
+                                <a href="https://photo-list.herokuapp.com/" target="_blank" class="portfolio-link" data-toggle="modal">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content">
+                                            <i class="fa fa-plus fa-3x"></i>
+                                        </div>
+                                    </div>
+                                    <img src="./img/photo_list.jpg" class="img-responsive" alt="">
+                                </a>
+                                <div class="portfolio-caption">
+                                    <h4>Photo List</h4>
+                                    <p class="text-muted">An "Instragram"-like app made with AngularJS</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 portfolio-item">
+                                <a href="https://github.com/MarinaShemesh/mern_project" target="_blank" class="portfolio-link" data-toggle="modal">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content">
+                                            <i class="fa fa-plus fa-3x"></i>
+                                        </div>
+                                    </div>
+                                    <img src="./img/mern_stack.jpg" class="img-responsive" alt="">
+                                </a>
+                                <div class="portfolio-caption">
+                                    <h4>MERN stack commments</h4>
+                                    <p class="text-muted">A full stack app written in React</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 portfolio-item">
+                                <a href="https://github.com/MarinaShemesh/rgbcolorgame" target="_blank" class="portfolio-link" data-toggle="modal">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content">
+                                            <i class="fa fa-plus fa-3x"></i>
+                                        </div>
+                                    </div>
+                                    <img src="./img/colour_game.jpg" class="img-responsive" alt="">
+                                </a>
+                                <div class="portfolio-caption">
+                                    <h4>RGB colour guess game</h4>
+                                    <p class="text-muted">A vanillaJS app to test your rgb colour knowledge</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- About Section -->
+                <section id="about">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <h2 class="section-heading">About me</h2>
+                                <h3 class="section-subheading text-muted">An extremely condensed version of my life.</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <ul class="timeline">
+                                    <li>
+                                        <div class="timeline-image">
+                                            <a href="http://www.elevationacademy.co/" target="_blank">
+                                                <img class="img-circle img-responsive" src="img/logo.png" alt="Elevation Academy"></a>
+                                            </div>
+                                            <div class="timeline-panel">
+                                                <div class="timeline-heading">
+                                                    <h4>February - May 2017</h4>
+                                                    <h4 class="subheading">Coding bootcamp at Elevation Academy</h4>
+                                                </div>
+                                                <div class="timeline-body">
+                                                    <p class="text-muted">I created several web apps using the MEAN Stack, customized various API's to serve data to apps, learned about working with MongoDB and mySQL databases. I work with Javascript, AngularJS, HTML5, CSS3 and is familiar with React and Angular2</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="timeline-inverted">
+                                            <div class="timeline-image">
+                                               <a href="http://www.intelitek.com/" target="_blank"><img class="img-circle img-responsive" src="img/intelitek_2.jpg" alt="Intelitek"></a>
+                                           </div>
+                                           <div class="timeline-panel">
+                                            <div class="timeline-heading">
+                                                <h4>March 2010 - January 2017 </h4>
+                                                <h4 class="subheading">Content administrator and writer at Intelitek</h4>
+                                            </div>
+                                            <div class="timeline-body">
+                                                <p class="text-muted">Technical writer and content administrator at a company selling online STEM and robotics lessons. Here I coordinated translators, animators and team members, wrote science lessons and was responsible for the QA and updates of various content management systems.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="timeline-image">
+                                           <a href="http://52frames.com/" target="_blank"><img class="img-circle img-responsive" src="img/52frames.jpg"alt="52Frames.com"></a>
+                                       </div>
+                                       <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>March 2015 - right now</h4>
+                                            <h4 class="subheading">Committee member of the 52Frames photography group</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">I was responsible for the social media on Instagram and Twitter for this group. Now I write the weekly tutorial emails and help to curate and choose the weekly top three winners.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                               <li class="timeline-inverted">
+                                    <div class="timeline-image">
+                                       <a href="http://www.up.ac.za/" target="_blank"><img class="img-circle img-responsive" src="img/tukkies.jpeg" alt="University of Pretoria"></a>
+                                   </div>
+                                   <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>BSc degree in Genetics</h4>
+                                        <h4 class="subheading">University of Pretoria</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">I majored in genetics and microbiology and also studied biochemistry and maths. As a senior I lead a group of students who entertained children in hospitals and wrote articles for my dorm's paper.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                               <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/marina_shemesh.jpg" alt="">
+                                <h4>Photographer : Swimmer : Writer : Developer</h4>
+                              </div>
+                           </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact me</h2>
+                    <h3 class="section-subheading text-muted">Please feel free to contact me via my social media buttons or from the contact details on my resume.</h3>
+                    <h4><a href="Marina_Shemesh_resume.pdf" target="_blank" alt="Marina Shemesh resume">Marina Shemesh's resume</a></h4>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Created with some help from my Bootstrap friend.</span>
+                </div>
+
+                <div class="networks">
+                 <div class="col-md-4 pull-right">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/marinashemesh" target="_blank"><i class="fa fa-twitter fa-inverse"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/marinashemesh" target="_blank"><i class="fa fa-facebook fa-inverse"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/marinashemesh1/" target="_blank"><i class="fa fa-instagram fa-inverse"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/marina-shemesh-98133311/" target="_blank"><i class="fa fa-linkedin fa-inverse"></i></a>
+                        </li>
+                        <li><a href="https://codepen.io/MarinaShemesh/pens/public/" target="_blank"><i class="fa fa-codepen fa-inverse"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script src="contact_me.js"></script>
+</body>
+
+</html>

@@ -13,8 +13,17 @@ footer {
     color: white;
 }
 
-.navbar-brand:hover {
-    color:#FFCC11;
+@media (min-width: 768px) {
+
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+
+}
+.navbar-nav>li>a:hover {
+ background-color:#FFCC11;
+
 }
 
 .navbar-brand:visited  {

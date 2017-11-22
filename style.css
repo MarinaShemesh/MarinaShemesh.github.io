@@ -427,4 +427,19 @@ section h3.section-subheading {
   }
 }
 
+img {
+  -webkit-box-shadow: 3px 6px 14px 0px rgba(107,95,107,1);
+  -moz-box-shadow: 3px 6px 14px 0px rgba(107,95,107,1);
+  box-shadow: 3px 6px 14px 0px rgba(107,95,107,1);
+  border-radius: 1%;
 
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}

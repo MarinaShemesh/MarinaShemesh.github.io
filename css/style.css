@@ -1,0 +1,87 @@
+body {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(70, 193, 252, 1) 19%, rgba(192, 70, 252, 1) 38%, rgba(118, 70, 252, 1) 59%, rgba(28, 8, 83, 1) 85%);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    /* height: 100vh;*/
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%;
+    }
+
+    50% {
+        background-position: 100%;
+    }
+
+    100% {
+        background-position: 0%;
+    }
+}
+
+.heading {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlist {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    /*removes the bullet point*/
+   display: flex;
+   justify-content: center;
+
+}
+
+
+li {
+   display: inline-block;
+    border: 1px solid white;
+    margin-right: 20px;
+    height: 40px;
+    /*  should be the same as line-height */
+    line-height: 40px;
+    /* should be the same as height */
+    padding: 5px 40px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+@media only screen and (max-width: 700px) {
+
+    .navlist{
+        display: column; 
+    }
+     li {
+        margin-bottom: 10px;
+
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+        li {
+        margin-bottom: 10px;
+
+    }
+
+}
+
